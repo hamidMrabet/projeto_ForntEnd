@@ -8,37 +8,40 @@
 <body>
     <header>
         <div class="menu">
-                <nav class="navegacao">
-                    <a href="#sobre">Sobre</a> |
-                    <a href="#estudo">Estudos</a> |
-                    <a href="#objetivo">Objetivos</a> |
-                    <a href="#habil">Habilidades</a> |
-                    <a href="#contact">Contat</a> 
-                </nav>
+            <a href="#sobre">Sobre</a> 
+            <a href="#estudo">Formação</a> 
+            <a href="#objetivo">Objetivos</a> 
+            <a href="#habil">Habilidades</a> 
+            <a href="#contact">Contact</a>                
         </div>          
     </header>
-        <h2 id="sobre">Sobre</h2>
+    <hr>
+        <h2 id="sobre">SOBRE</h2>
             <figure>
                 <img src="imagens/MinhaFoto.png" alt="foto perfil" width="250" height="250">
                 <figcaption><strong>HAMID MRABET</strong></figcaption>
                 <figcaption>Fiscal & Developer front-end</figcaption>
                 <figcaption>São Paulo, Brasil</figcaption>
             </figure>
-        
+
             <p>Meu nome é <i>Hamid</i>, eu sou de Marrocos, e moro em São Paulo desde de 2018.</p>
             <p>Eu sou formado em Economia & Gestão empresarial.</p>
             <p>Atualement, eu trabalho com fiscal no escritorio da conatabildade Moyses,</p>
             <p>e eu estou cursando Front-End da<i> Toti</i>.</p>
 
-        <h2 id="estudo">Formação Acadêmica</h2>
-        <ol>
-            <li>Curso de <i>Front-End</i> da plataforma <b>Toti</b> | 2022.</li>
-            <li>Graduação em <i>Economia & Gestão Empresarial</i> em <b>ULP</b>(França) | 2004.</li>
-            <li>Graduação em <i>Economia Empresarial</i> em <b>Universidade Hassan II</b>(Marrocos) | 1998.</li>
-            <li>Conclusão de ensino médio (Marrocos). | 1994</li>
-        </ol>
+        <h2 id="estudo">FORMACÃO ACADÊMICA</h2>
+        <div class="timeline">
+            <h2>2022</h2>
+                <p>Curso de <i>Front-End</i> da plataforma <b>Toti</b></p>
+            <h2>2004</h2>
+                <p>Graduação em <i>Economia & Gestão Empresarial</i> em <b>ULP</b>(França)</p>
+            <h2>1998</h2>
+                <p>Graduação em <i>Economia Empresarial</i> em <b>Universidade Hassan II</b>(Marrocos)</p>  
+            <h2>1994</h2>
+                <p>Conclusão de ensino médio (Marrocos)</p>             
+        </div> 
 
-        <h2 id="objetivo">Objetivos</h2>
+        <h2 id="objetivo">OBJETIVOS</h2>
             <ul>
                 <li>Se tornar um Front-End Developer.</li>
                 <li>Seguir uma carreira promissora na area de TI.</li>
@@ -46,7 +49,7 @@
             </ul>
 
     
-        <h2 id="habil">Habilidades</h2>
+        <h2 id="habil">HABILIDADES</h2>
             <ul>
                <li>Idiomas: Arabe, Francês, Ingles.</li>
                <li>Microsfot Office: Word, Excel e Powerpoint.</li>
@@ -54,18 +57,18 @@
                <li>CSS3.</li>
             </ul>
 
-        <h2 id="contact">Contact</h2>
+        <h2 id="contact">CONTACT</h2>
         <div class="container">
             <form action="action_page.php">
           
               <label for="nome">Nome:</label>
-              <input type="text" name="nome" id="nome" placeholder="Seu nome..." required>
+              <input type="text" name="nome" id="nome" placeholder="Alberto Santos" required>
               
               <label for="birth">Data de nascimento:</label>
               <input type="date" name="birth" required>
 
               <label for="pais">Pais:</label>
-              <select id="p name="pais">
+              <select name="pais">
                 <option value="brasil">Brasil</option>
                 <option value="marracos">Marrocos</option>
                 <option value="usa">USA</option>
@@ -78,27 +81,22 @@
               <button type="submit">Enviar</button>
           
             </form>
-          </div> 
-   
+          </div>
 
-    <footer id="footer">
-        <h3 class="redes__social">Fique conectado!</h3>
-    
-        <div class="social__media">
+        <hr>
+          
+    <footer class="rodape">
+        <div class="redes__sociais">
             <center>
-                <ul>
-                <h5>E-mail:<u>hamidpaulista@gmail.com</u></h5>
+            <ul>     
                 <a href="https://github.com/hamidMrabet" target="_blank"><img src="imagens/Github (3).png" alt="Github icon" width="50" height="50">
                 </a>
-                <a href="https://www.linkedin.com/in/hamid-mrabet/" target="_blank"><img src="imagens/png linkdin.png" alt="Github icon" width="80" height="50"></a>
-                </ul>
-            </br>
-            <p>Copyright &copy; 2022</p>
+                <a href="https://www.linkedin.com/in/hamid-mrabet/" target="_blank"><img src="imagens/png linkdin.png" alt="Github icon" width="80" height="50"></a>     
+            </ul>
+            <p>Copyright &copy; 2022 by Hamid Mrabet</p>
             </center>
         </div>
-
-    
-           
+    </footer>           
 
 
     
