@@ -18,11 +18,13 @@
         </div>          
     </header>
         <h2 id="sobre">Sobre</h2>
-            <h1>HAMID MRABET</h1>
-            <P>São Paulo, Brasil</P>
-            <p>Fiscal & Developer Front-End</p>
-            <img src="imagens/MinhaFoto.png" alt="foto perfil" width="250" height="250">
-
+            <figure>
+                <img src="imagens/MinhaFoto.png" alt="foto perfil" width="250" height="250">
+                <figcaption><strong>HAMID MRABET</strong></figcaption>
+                <figcaption>Fiscal & Developer front-end</figcaption>
+                <figcaption>São Paulo, Brasil</figcaption>
+            </figure>
+        
             <p>Meu nome é <i>Hamid</i>, eu sou de Marrocos, e moro em São Paulo desde de 2018.</p>
             <p>Eu sou formado em Economia & Gestão empresarial.</p>
             <p>Atualement, eu trabalho com fiscal no escritorio da conatabildade Moyses,</p>
@@ -56,40 +58,42 @@
         <div class="container">
             <form action="action_page.php">
           
-              <label for="fname">Nome</label>
-              <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
-          
-              <label for="lname">Sobrenome</label>
-              <input type="text" id="lname" name="lastname" placeholder="Seu Sobrenome...">
-          
-              <label for="pais">Pais</label>
-              <select id="pais" name="country">
+              <label for="nome">Nome:</label>
+              <input type="text" name="nome" id="nome" placeholder="Seu nome..." required>
+              
+              <label for="birth">Data de nascimento:</label>
+              <input type="date" name="birth" required>
+
+              <label for="pais">Pais:</label>
+              <select id="p name="pais">
                 <option value="brasil">Brasil</option>
                 <option value="marracos">Marrocos</option>
                 <option value="usa">USA</option>
+                <option value="frança">França</option>
               </select>
           
-              <label for="assunto">Assunto</label>
-              <textarea id="subject" name="subject" placeholder="seu mensagem aqui.." style="height:200px"></textarea>
+              <label for="assunto">Mensagem:</label>
+              <textarea name="mensagem" placeholder="seu mensagem aqui.." cols="30" rows="10"></textarea>
           
-              <input type="submit" value="enviar">
+              <button type="submit">Enviar</button>
           
             </form>
           </div> 
    
 
     <footer id="footer">
-        <h5 class="redes__social">Me Siga nas redes sociais</h5>
+        <h3 class="redes__social">Fique conectado!</h3>
     
         <div class="social__media">
             <center>
                 <ul>
-                <h6>E-mail:<u>hamidpaulista@gmail.com</u></h6>
+                <h5>E-mail:<u>hamidpaulista@gmail.com</u></h5>
                 <a href="https://github.com/hamidMrabet" target="_blank"><img src="imagens/Github (3).png" alt="Github icon" width="50" height="50">
                 </a>
-                <a href="https://www.linkedin.com/in/hamid-mrabet/" target="_blank"><img src="imagens/png linkdin.png" alt="Github icon" width="80" height="50">
-                </a>
+                <a href="https://www.linkedin.com/in/hamid-mrabet/" target="_blank"><img src="imagens/png linkdin.png" alt="Github icon" width="80" height="50"></a>
                 </ul>
+            </br>
+            <p>Copyright &copy; 2022</p>
             </center>
         </div>
 
